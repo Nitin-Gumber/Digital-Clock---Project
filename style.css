@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.center #banner {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+#clock {
+  display: flex;
+  flex-direction: row;
+}
+
+.hand {
+  background-color: #212121;
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.social_media {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .social_media h2 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .social_media a {
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: black;
+  }
